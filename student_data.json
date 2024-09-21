@@ -1,0 +1,48 @@
+
+    {"attendance": {
+        "Mathematics": "85%",
+        "Physics": "92%",
+        "Chemistry": "78%"
+    },
+    "timetable": {
+        "Monday": ["Mathematics 9 AM", "Physics 11 AM", "Chemistry 2 PM"],
+        "Tuesday": ["Physics 9 AM", "Mathematics 12 PM"],
+        "Wednesday": ["Chemistry 9 AM", "Mathematics 3 PM"],
+        "Thursday": ["Physics 10 AM", "Mathematics 1 PM"],
+        "Friday": ["Chemistry 12 PM", "Physics 3 PM"]
+    },
+    "marks": {
+        "Mathematics": {
+            "quiz1": 20,
+            "quiz2": 18,
+            "assignment": 30,
+            "final": 85
+        },
+        "Physics": {
+            "quiz1": 22,
+            "quiz2": 19,
+            "assignment": 25,
+            "final": 80
+        },
+        "Chemistry": {
+            "quiz1": 15,
+            "quiz2": 20,
+            "assignment": 28,
+            "final": 75
+        }
+    },
+    "exam_timetable": {
+        "Mathematics": "2024-09-30 9:00 AM",
+        "Physics": "2024-10-05 11:00 AM",
+        "Chemistry": "2024-10-10 2:00 PM"
+    },
+    "assignments": {
+        "Mathematics": {"due": "2024-09-28", "uploaded": false},
+        "Physics": {"due": "2024-09-25", "uploaded": true},
+        "Chemistry": {"due": "2024-09-30", "uploaded": false}
+    },
+    "events": [
+        {"name": "Hackathon", "register": true},
+        {"name": "AI Workshop", "register": false}
+    ]
+}
